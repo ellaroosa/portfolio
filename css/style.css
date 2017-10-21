@@ -1,3 +1,109 @@
 #header-container {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #4a4a4a;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#profile-pic {
+    width: 200px;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+#tagline {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.icon {
+    color: #c0c0c0;
+}
+
+#container-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertically-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-image {
+    margin-right: 30px;
+}
+
+#about-content {
+    display: inline-block;
+}
+
+#about-section-content {
+    text-align: center;
+}
+
+#text-field {
+    text-align: left;
+}
+
+#introduction > h1, #introduction > h2, #introduction > p {
+    margin-bottom: 7px;
+}
+
+.nav-portfolio, .nav-about {
+    color: #c0c0c0;;
+}
+
+.nav-portfolio:hover, .nav-about:hover {
+    color: #4a4a4a;
+}
+
+#selected {
+    color: #4a4a4a;
+}
+
+#address {
+    margin-left: 5px;
+}
+
+.entry {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.entry-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.entry-body {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.entry-link {
+    text-decoration: underline;
+}
+
+.entry-info {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+#entry-section {
+    margin-top: -50px;
+}
+
+.entry-container {;
+}
+
+.entry-img {
+    max-height: 250px;
 }
