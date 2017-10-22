@@ -57,7 +57,7 @@ body {
 }
 
 .nav-portfolio, .nav-about {
-    color: #c0c0c0;;
+    color: #c0c0c0;
 }
 
 .nav-portfolio:hover, .nav-about:hover {
@@ -70,6 +70,7 @@ body {
 
 #address {
     margin-left: 5px;
+    font-size: 14px;
 }
 
 .entry {
@@ -106,4 +107,18 @@ body {
 
 .entry-img {
     max-height: 250px;
+}
+
+#intro-text {
+    font-size: 14px;
+    max-width: 530px;
+}
+
+#intro-headline {
+    color:  #c0c0c0;
+    font-size: 18px;
+}
+
+#gradu {
+    border: 1px solid black;
 }
