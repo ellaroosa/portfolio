@@ -8,6 +8,7 @@ h1 {
     font-size: 30px;
 }
 
+
 #profile-pic {
     width: 200px;
 }
@@ -78,6 +79,31 @@ body {
     padding: 30px 50px;
 }
 
+.entry-img-container {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.entry-img-container img {
+    display: block;
+    max-height: 250px;
+    margin: 0 auto;
+}
+
+.entry-img-container > div {
+    overflow: hidden;
+
+}
+
+.entry-img-container img:hover {
+    /* transform: scale(1.1,1.1);
+    transition: all .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial; */
+}
+
 .entry-header {
     font-size: 20px;
     font-weight: bold;
@@ -89,24 +115,17 @@ body {
     margin-bottom: 8px;
 }
 
-.entry-link {
-    text-decoration: underline;
-}
-
 .entry-info {
     font-size: 12px;
     margin-bottom: 8px;
 }
 
+.entry-link {
+    text-decoration: underline;
+}
+
 #entry-section {
     margin-top: -50px;
-}
-
-.entry-container {;
-}
-
-.entry-img {
-    max-height: 250px;
 }
 
 #intro-text {
@@ -119,6 +138,6 @@ body {
     font-size: 18px;
 }
 
-#gradu {
-    border: 1px solid black;
+#gradu, #uutiskirje {
+    border: 1px solid #4a4a4a;;
 }
